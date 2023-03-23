@@ -1,0 +1,158 @@
+[
+{
+    "model": "company.employee",
+    "pk": 1,
+    "fields": {
+        "last_name": "Иванов",
+        "first_name": "Аркадий",
+        "patronymic": "Петрович",
+        "photo": "",
+        "salary": "120000.00",
+        "birth_date": "1978-12-12",
+        "position": 5,
+        "department": 1
+    }
+},
+{
+    "model": "company.employee",
+    "pk": 2,
+    "fields": {
+        "last_name": "Васильев",
+        "first_name": "Пётр",
+        "patronymic": "Кузьмич",
+        "photo": "",
+        "salary": "90000.00",
+        "birth_date": "2000-09-03",
+        "position": 3,
+        "department": 1
+    }
+},
+{
+    "model": "company.employee",
+    "pk": 3,
+    "fields": {
+        "last_name": "Терешкова",
+        "first_name": "Лариса",
+        "patronymic": "Андреевна",
+        "photo": "",
+        "salary": "50000.00",
+        "birth_date": "2005-06-04",
+        "position": 6,
+        "department": 2
+    }
+},
+{
+    "model": "company.employee",
+    "pk": 4,
+    "fields": {
+        "last_name": "Матвеев",
+        "first_name": "Иван",
+        "patronymic": "Сергеевич",
+        "photo": "",
+        "salary": "200000.00",
+        "birth_date": "1982-09-02",
+        "position": 1,
+        "department": 1
+    }
+},
+{
+    "model": "company.employee",
+    "pk": 5,
+    "fields": {
+        "last_name": "Фадеева",
+        "first_name": "Ирина",
+        "patronymic": "Михайловна",
+        "photo": "",
+        "salary": "150000.00",
+        "birth_date": "1976-02-14",
+        "position": 1,
+        "department": 2
+    }
+},
+{
+    "model": "company.employee",
+    "pk": 6,
+    "fields": {
+        "last_name": "Снегирёв",
+        "first_name": "Тимур",
+        "patronymic": "Петрович",
+        "photo": "",
+        "salary": "70000.00",
+        "birth_date": "1990-05-12",
+        "position": 4,
+        "department": 1
+    }
+},
+{
+    "model": "company.employee",
+    "pk": 7,
+    "fields": {
+        "last_name": "Гузеева",
+        "first_name": "Мария",
+        "patronymic": "Андреевна",
+        "photo": "",
+        "salary": "150000.00",
+        "birth_date": "1986-08-04",
+        "position": 2,
+        "department": 1
+    }
+},
+{
+    "model": "company.department",
+    "pk": 1,
+    "fields": {
+        "title": "IT Department",
+        "chief": 4
+    }
+},
+{
+    "model": "company.department",
+    "pk": 2,
+    "fields": {
+        "title": "Отдел Маркетинга",
+        "chief": 5
+    }
+},
+{
+    "model": "company.position",
+    "pk": 1,
+    "fields": {
+        "title": "Директор"
+    }
+},
+{
+    "model": "company.position",
+    "pk": 2,
+    "fields": {
+        "title": "Backend-разработчик"
+    }
+},
+{
+    "model": "company.position",
+    "pk": 3,
+    "fields": {
+        "title": "Frontend-разработчик"
+    }
+},
+{
+    "model": "company.position",
+    "pk": 4,
+    "fields": {
+        "title": "Project manager"
+    }
+},
+{
+    "model": "company.position",
+    "pk": 5,
+    "fields": {
+        "title": "DevOps"
+    }
+},
+{
+    "model": "company.position",
+    "pk": 6,
+    "fields": {
+        "title": "Менеджер по продажам"
+    }
+}
+]
